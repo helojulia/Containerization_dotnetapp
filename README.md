@@ -67,6 +67,7 @@ En how-to när man skapar en .NET konsollapp via VScode och hur man containerise
      ```
    - När din container är igång, kan du connecta den för att se en output. Använd ```docker start```          och ```docker attach```. Docker attach körs lokalt hos dig i din terminal.
      
+     
 
      
 
