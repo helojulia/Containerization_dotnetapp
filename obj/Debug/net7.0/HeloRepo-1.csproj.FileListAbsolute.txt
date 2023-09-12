@@ -1,0 +1,14 @@
+C:\Programmeringsprojekt\HeloRepo-1\bin\Debug\net7.0\HeloRepo-1.exe
+C:\Programmeringsprojekt\HeloRepo-1\bin\Debug\net7.0\HeloRepo-1.deps.json
+C:\Programmeringsprojekt\HeloRepo-1\bin\Debug\net7.0\HeloRepo-1.runtimeconfig.json
+C:\Programmeringsprojekt\HeloRepo-1\bin\Debug\net7.0\HeloRepo-1.dll
+C:\Programmeringsprojekt\HeloRepo-1\bin\Debug\net7.0\HeloRepo-1.pdb
+C:\Programmeringsprojekt\HeloRepo-1\obj\Debug\net7.0\HeloRepo-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programmeringsprojekt\HeloRepo-1\obj\Debug\net7.0\HeloRepo-1.AssemblyInfoInputs.cache
+C:\Programmeringsprojekt\HeloRepo-1\obj\Debug\net7.0\HeloRepo-1.AssemblyInfo.cs
+C:\Programmeringsprojekt\HeloRepo-1\obj\Debug\net7.0\HeloRepo-1.csproj.CoreCompileInputs.cache
+C:\Programmeringsprojekt\HeloRepo-1\obj\Debug\net7.0\HeloRepo-1.dll
+C:\Programmeringsprojekt\HeloRepo-1\obj\Debug\net7.0\refint\HeloRepo-1.dll
+C:\Programmeringsprojekt\HeloRepo-1\obj\Debug\net7.0\HeloRepo-1.pdb
+C:\Programmeringsprojekt\HeloRepo-1\obj\Debug\net7.0\HeloRepo-1.genruntimeconfig.cache
+C:\Programmeringsprojekt\HeloRepo-1\obj\Debug\net7.0\ref\HeloRepo-1.dll
