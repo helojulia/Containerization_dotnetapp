@@ -53,5 +53,20 @@ En how-to när man skapar en .NET konsollapp via VScode och hur man containerise
    Varje kommando i din dockerfil har genererat ett lager och har skapat ett IMAGE-ID. Detta ID't kommer
    vi att använda för att skapa en container baserat på vår image.
    ![image](https://github.com/helojulia/helorepo/assets/130759487/300fc8b9-a25c-4b06-8ee1-8c417933bd61)
-   
-   
+
+4. Skapa din container
+   - Nu har vi en image som innehåller vår app. Kör:
+        ```
+        docker create -it --name guidecontainer guide-image
+        ```
+       Din output du får är ett ID på din container. -it står för interactive vilket förhindrar att             containern stoppas direkt efter den skapats.
+
+   - För att se alla containers, kör:
+     ```
+     docker ps -a
+     ```
+   - När din container är igång, kan du connecta den för att se en output. Använd ```docker start```          och ```docker attach```. Docker attach körs lokalt hos dig i din terminal.
+     
+
+     
+
