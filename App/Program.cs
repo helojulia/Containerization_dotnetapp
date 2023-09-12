@@ -1,8 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Diagnostics.Tracing;
-using System.Formats.Asn1;
+﻿using System;
 using System.Net;
-using System.Net.NetworkInformation;
 using Timer = System.Timers.Timer;
 
 namespace nsPing
@@ -15,13 +12,13 @@ namespace nsPing
             string url = "www.helo.se"; // Replace with the URL you want to resolve
 
             Timer timer = new Timer();
-            timer.Interval = TimeSpan.FromSeconds(10).TotalMilliseconds;
+            timer.Interval = TimeSpan.FromSeconds(3).TotalMilliseconds;
             // en anonym funktion som endast används, där vi anropar den, alltså till min timer. Eftersom den är async använder vi await före.
             timer.Elapsed += TimerElapsed;
             timer.Start();
             Console.ReadLine();
         }
-        
+
         public static void TimerElapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
             string url = "www.helo.se";
@@ -30,10 +27,9 @@ namespace nsPing
 
         public static void ResolveIPAddress(string url)
         {
-        
+
             try
             {
-                
                 IPHostEntry hostEntry = Dns.GetHostEntry(url);
                 IPAddress[] iPAddresses = hostEntry.AddressList;
 
