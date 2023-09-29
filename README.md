@@ -1,4 +1,4 @@
-# helorepo
+# Containerization
 
 En how-to när man skapar en .NET konsollapp via VScode och hur man containeriserar den. 
 
